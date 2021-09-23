@@ -1,0 +1,45 @@
+*{
+    font-family: 'Gluten', cursive;
+}
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+#container > div {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+#formArea {
+    position: absolute;
+    background-color: #c9c88a;
+    bottom: 0;
+    right: 0;
+    height: 25em;
+    width: 15em;
+}
+#titleArea {
+    background-color: yellowgreen;
+    text-align: center;
+    height: 1em;
+    font-size: xx-large;
+}
+label {
+    margin: 5em 1em 5em 0;
+    font-weight: bold;
+}
+input {
+    margin: 1em 1em 1em 1em;
+}
+select {
+    margin-left: 1em;
+}
+#div1 {
+    border: 5px solid black;
+
+}
+#removeForm {
+    position: absolute;
+    bottom: 3em;
+    left: 3em;
+}

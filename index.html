@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="titleArea" class="titleClass">
+    JCodE's Library
+</div>
+<div id="container" id="containerClass">
+
+</div>
+
+<div id="div1" class="div1Class"></div>
+
+
+<div id="formArea"><h4>Enter New Library books below:</h4>
+    <label for="form1">Title:</label>
+    <input id="form1" type="text" name="title" value="">
+    <br>
+    <label for="form2">Author:</label>
+    <input id="form2" type="text" name="author" value="">
+    <br>
+    <label for="form3">How many pages?</label>
+    <input id="form3" type="text" name="pages" value="">
+    <label></label>
+    <h4>Select True if you have read this book  
+        and False if you have not:</h4  >
+<select id="selected" v-model="item.selected">
+    <option value=0>False</option>
+    <option value=1>True</option>
+</select>
+<!--
+    <div>
+        <input type="radio1" id="form4" name="read" value="">
+        <label for="form4">True or False</label>
+    </div> -->
+    <button onclick="getData()" name="form">
+        Submit
+    </button>
+
+    
+</div>
+<!--<div id="removeForm">
+<input id="checkOut" type="text" value="">
+<button onclick="removeButt()" id="removeButton">remove book</button>
+</div>-->
+
+<!--
+<div>
+    <span id="form1span">
+        <input id="form1" type="text" value="">
+    </span>
+    <span id="form2span">
+        <input id="form2" type="text" value="">
+    </span>
+    <span id="form3span">
+        <input id="form3" type="text" value="">
+    </span>
+    <span id="form4span">
+        <input id="form4" type="text" value="">
+    </span>
+    <button onclick="getData()"></button>
+</div>
+-->
+ <script src="script.js"></script>   
+</body>
+</html>
